@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pro_mapper" />
+        <module name="pro_entity" />
+        <module name="pro_common" />
+        <module name="pro_service" />
+        <module name="pro_mappper" />
+        <module name="pro_api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pro_api" options="" />
+      <module name="pro_common" options="" />
+      <module name="pro_entity" options="" />
+      <module name="pro_mapper" options="" />
+      <module name="pro_mappper" options="-parameters" />
+      <module name="pro_service" options="" />
+    </option>
+  </component>
+</project>
